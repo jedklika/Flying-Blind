@@ -7,6 +7,7 @@ TagManager:
   - Red
   - Blue
   - Green
+  - DialogueBox
   layers:
   - Default
   - TransparentFX
