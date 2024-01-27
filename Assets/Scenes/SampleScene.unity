@@ -532,6 +532,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 647850285}
+  - component: {fileID: 647850286}
   m_Layer: 0
   m_Name: RotatePoint
   m_TagString: Untagged
@@ -555,6 +556,28 @@ Transform:
   - {fileID: 1691144252}
   m_Father: {fileID: 1901604082}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &647850286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647850284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603ac4f969ab0f94f809f0da09085feb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 1641996317806290620, guid: a980a4f9cf2cd714b975e484a9322dd9, type: 3}
+  bullet2: {fileID: 6996788513946448911, guid: 7fc8dc16ebb678b47b2448069dfbb53e, type: 3}
+  bullet3: {fileID: 6996788513946448911, guid: e673e03ad5173674cba8d13668f2f477, type: 3}
+  bulletTransform: {fileID: 1691144252}
+  canFire: 1
+  timeBetweenFiring: 0.3
+  Fog: {fileID: 0}
+  secondaryFog: {fileID: 0}
+  sightDistance: 0
+  checkInterval: 0
 --- !u!1 &884746170
 GameObject:
   m_ObjectHideFlags: 0
@@ -989,6 +1012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fogOfWarTexture: {fileID: 2800000, guid: 302956b8e5f7db94d88fafdfcd9251e3, type: 3}
   spriteMask: {fileID: 1519223802}
+  ColorChange: {fileID: 0}
 --- !u!1 &1691144251
 GameObject:
   m_ObjectHideFlags: 0
@@ -1015,9 +1039,9 @@ Transform:
   m_GameObject: {fileID: 1691144251}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.63, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0.9, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 647850285}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1333,13 +1357,13 @@ SpriteMask:
   m_SortingOrder: 0
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_MaskAlphaCutoff: 0.2
-  m_FrontSortingLayerID: 1297762573
+  m_FrontSortingLayerID: 0
   m_BackSortingLayerID: 0
-  m_FrontSortingLayer: 1
+  m_FrontSortingLayer: 0
   m_BackSortingLayer: 0
-  m_FrontSortingOrder: 1
+  m_FrontSortingOrder: 0
   m_BackSortingOrder: 0
-  m_IsCustomRangeActive: 1
+  m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2098616375
 GameObject:
@@ -1433,10 +1457,10 @@ SceneRoots:
   - {fileID: 884746172}
   - {fileID: 519420032}
   - {fileID: 1901604082}
-  - {fileID: 1519223803}
   - {fileID: 995917126}
   - {fileID: 1065816054}
   - {fileID: 2098616377}
   - {fileID: 607691025}
   - {fileID: 1737259628}
   - {fileID: 1304777596}
+  - {fileID: 1519223803}
