@@ -7,6 +7,8 @@ public class Shooter : MonoBehaviour
     private Camera mainCam;
     private Vector3 mousePos;
     public GameObject bullet;
+    public GameObject bullet2;
+    public GameObject bullet3;
     public Transform bulletTransform;
     public bool canFire;
     private float timer;
@@ -43,11 +45,22 @@ public class Shooter : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButton(0) && canFire)
+        if (Input.GetKeyDown(KeyCode.Alpha1) && canFire)
         {
             canFire = false;
             Instantiate(bullet, bulletTransform.position, Quaternion.identity, transform);
 
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2) && canFire)
+        {
+            canFire = false;
+            Instantiate(bullet2, bulletTransform.position, Quaternion.identity, transform);
+
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3) && canFire)
+        {
+            canFire = false;
+            Instantiate(bullet3, bulletTransform.position, Quaternion.identity, transform);
         }
     }
 }

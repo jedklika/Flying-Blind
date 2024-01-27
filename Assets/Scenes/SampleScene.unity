@@ -569,6 +569,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 1641996317806290620, guid: a980a4f9cf2cd714b975e484a9322dd9, type: 3}
+  bullet2: {fileID: 6996788513946448911, guid: 7fc8dc16ebb678b47b2448069dfbb53e, type: 3}
+  bullet3: {fileID: 6996788513946448911, guid: e673e03ad5173674cba8d13668f2f477, type: 3}
   bulletTransform: {fileID: 1691144252}
   canFire: 1
   timeBetweenFiring: 0.3
@@ -1010,6 +1012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fogOfWarTexture: {fileID: 2800000, guid: 302956b8e5f7db94d88fafdfcd9251e3, type: 3}
   spriteMask: {fileID: 1519223802}
+  ColorChange: {fileID: 0}
 --- !u!1 &1691144251
 GameObject:
   m_ObjectHideFlags: 0
