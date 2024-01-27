@@ -311,7 +311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_Color: {r: 0.5754717, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -528,12 +528,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Jed Klika - Programmer
+  m_text: 'Jed Klika - Team Lead
+
+    Ellis Schomer - Programmer
+
+    Chris Calbert
+    - Programmer
 
     Sriram (Sam) Mohan - Technical Artist
 
-    Pascal
-    Wilson - Artist'
+    Pascal Wilson -
+    Artist'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -934,7 +939,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_Color: {r: 0, g: 0.26415092, b: 0.008548637, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2312,7 +2317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quitText: {fileID: 1914719175}
-  pipe: {fileID: 0}
+  pipe: {fileID: 1418128640}
 --- !u!114 &1418128639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2336,7 +2341,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9d8bcb5690908ba438805ec454f2bad3, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2630,13 +2635,14 @@ MonoBehaviour:
     polluted by
     a ''Fog of War'' which blinds you.
 
-    But you still have to make it out alive!
+    You can navigate your way by shooting
+    paint.
 
 
-    Use
-    the arrow keys and WASD to move.
+    Use the arrow keys and WASD to move.
 
-    Click to shoot.'
+    Press 1,2,3 to shoot different
+    colors of paint.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

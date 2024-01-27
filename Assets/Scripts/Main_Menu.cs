@@ -18,7 +18,7 @@ public class Main_Menu : MonoBehaviour
     public void troll()
     {
         string[] quitMsg = {
-            "Lmao, Nice Try!", "Get trolled nerd!", "Need a hint?", "Too bad", "L + Ratio", "Okay, I'll confess.", "It's me!", "Click me!",
+            "Lmao, Nice Try!", "Get trolled nerd!", "Need a hint?", "Too bad", "THERE'S NO ESCAPE!!!", "Okay, I'll confess.", "It's me!", "There's your clue", "Click on me!", "Go ahead!",
         "Why are you still here?", "Go away", "Touch some grass", "THAT HURTS!", "STOP!!!", "I swear to god...", "if you click that button...", "one more time...", "AAaaAAAaaaaaHH!", "*dies*", "..." };
 
         quitText.text = quitMsg[trollCount];
@@ -31,6 +31,7 @@ public class Main_Menu : MonoBehaviour
         else if (trollCount == quitMsg.Length - 2)
         {
             pipe.Play();
+            trollCount++;
         }
 
         else
