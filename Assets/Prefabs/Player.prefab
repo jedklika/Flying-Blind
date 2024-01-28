@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6035996782619962621}
+  - component: {fileID: 4261805738930911626}
   m_Layer: 6
   m_Name: RotatePoint
   m_TagString: Untagged
@@ -32,6 +33,28 @@ Transform:
   - {fileID: 8808073142835991845}
   m_Father: {fileID: 5623378294855717904}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4261805738930911626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304572320462737572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603ac4f969ab0f94f809f0da09085feb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 1641996317806290620, guid: a980a4f9cf2cd714b975e484a9322dd9, type: 3}
+  bullet2: {fileID: 6996788513946448911, guid: 7fc8dc16ebb678b47b2448069dfbb53e, type: 3}
+  bullet3: {fileID: 6996788513946448911, guid: e673e03ad5173674cba8d13668f2f477, type: 3}
+  bulletTransform: {fileID: 8808073142835991845}
+  canFire: 1
+  fireRate: 0
+  Fog: {fileID: 0}
+  secondaryFog: {fileID: 0}
+  sightDistance: 0
+  checkInterval: 0
 --- !u!1 &2985808470589210949
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,7 +333,7 @@ MonoBehaviour:
   checkInterval: 0.25
   mousePos: {x: 0, y: 0}
   playerPos: {x: 0, y: 0}
-  player: {fileID: 7704301829099431452}
+  player: {fileID: 0}
   alive: 1
 --- !u!50 &9165209289159044382
 Rigidbody2D:
