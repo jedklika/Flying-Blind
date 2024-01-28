@@ -1515,6 +1515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fogOfWarTexture: {fileID: 2800000, guid: 302956b8e5f7db94d88fafdfcd9251e3, type: 3}
   spriteMask: {fileID: 1519223802}
+  ColorChange: {fileID: 0}
 --- !u!1 &1691144251
 GameObject:
   m_ObjectHideFlags: 0
