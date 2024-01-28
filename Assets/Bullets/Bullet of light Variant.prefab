@@ -102,7 +102,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7497167950513011783, guid: 2d62af29d6d6f3845aa155755d68ecc0, type: 3}
       propertyPath: force
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7497167950513011783, guid: 2d62af29d6d6f3845aa155755d68ecc0, type: 3}
       propertyPath: lifeTime
@@ -114,7 +114,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7497167950513011783, guid: 2d62af29d6d6f3845aa155755d68ecc0, type: 3}
       propertyPath: sightDistance
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7497167950513011783, guid: 2d62af29d6d6f3845aa155755d68ecc0, type: 3}
       propertyPath: splash.Array.size
@@ -243,10 +243,10 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1297762573
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 0.0489275, b: 0, a: 0.27450982}
+  m_Color: {r: 1, g: 0.0489275, b: 0, a: 0.039215688}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
