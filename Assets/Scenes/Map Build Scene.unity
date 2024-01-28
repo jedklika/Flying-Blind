@@ -282,6 +282,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 744552140}
     m_Modifications:
+    - target: {fileID: 196085360430512104, guid: ed47f4af4f0c74540aaa20d0840854be, type: 3}
+      propertyPath: doorColor
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2958038207715118670, guid: ed47f4af4f0c74540aaa20d0840854be, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -548,6 +552,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 744552140}
     m_Modifications:
+    - target: {fileID: 196085360430512104, guid: ed47f4af4f0c74540aaa20d0840854be, type: 3}
+      propertyPath: doorColor
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2958038207715118670, guid: ed47f4af4f0c74540aaa20d0840854be, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -753,6 +761,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 744552140}
     m_Modifications:
+    - target: {fileID: 196085360430512104, guid: ed47f4af4f0c74540aaa20d0840854be, type: 3}
+      propertyPath: doorColor
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2958038207715118670, guid: ed47f4af4f0c74540aaa20d0840854be, type: 3}
       propertyPath: m_LocalScale.x
       value: 11
@@ -2780,6 +2792,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 744552140}
     m_Modifications:
+    - target: {fileID: 196085360430512104, guid: ed47f4af4f0c74540aaa20d0840854be, type: 3}
+      propertyPath: doorColor
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2958038207715118670, guid: ed47f4af4f0c74540aaa20d0840854be, type: 3}
       propertyPath: m_LocalScale.x
       value: 9
@@ -3002,6 +3018,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 744552140}
     m_Modifications:
+    - target: {fileID: 196085360430512104, guid: ed47f4af4f0c74540aaa20d0840854be, type: 3}
+      propertyPath: doorColor
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2958038207715118670, guid: ed47f4af4f0c74540aaa20d0840854be, type: 3}
       propertyPath: m_LocalScale.x
       value: 12
@@ -4377,6 +4397,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 744552140}
     m_Modifications:
+    - target: {fileID: 196085360430512104, guid: ed47f4af4f0c74540aaa20d0840854be, type: 3}
+      propertyPath: doorColor
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2958038207715118670, guid: ed47f4af4f0c74540aaa20d0840854be, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -4443,6 +4467,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 744552140}
     m_Modifications:
+    - target: {fileID: 196085360430512104, guid: ed47f4af4f0c74540aaa20d0840854be, type: 3}
+      propertyPath: doorColor
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2958038207715118670, guid: ed47f4af4f0c74540aaa20d0840854be, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -7799,6 +7827,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 744552140}
     m_Modifications:
+    - target: {fileID: 196085360430512104, guid: ed47f4af4f0c74540aaa20d0840854be, type: 3}
+      propertyPath: doorColor
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2958038207715118670, guid: ed47f4af4f0c74540aaa20d0840854be, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
