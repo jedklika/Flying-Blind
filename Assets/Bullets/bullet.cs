@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class bullet : MonoBehaviour
@@ -8,13 +7,15 @@ public class bullet : MonoBehaviour
     private Camera mainCam;
     private Rigidbody2D Rb;
     public float force;
-    
+    public GameObject wall;
     public Fog FogRef;
     public Transform secondaryFog;
     [Range(0, 5)]
     public float sightDistance;
     public float checkInterval;
     public float lifeTime;
+    public GameObject[] splash;
+    public Vector2 difference;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,7 +37,7 @@ public class bullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //Debug.Log(Rb.velocity);
     }
 
     void DestroyBullet()
@@ -51,5 +52,79 @@ public class bullet : MonoBehaviour
             FogRef.MakeHole(transform.position, sightDistance);
             yield return new WaitForSeconds(checkInterval);
         }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        if (collision.gameObject.CompareTag("Wall"))
+        {
+            Debug.Log("Normal of the first point: " + collision.contacts[0].normal);
+            if (collision.contacts[0].normal.x == 1)
+            {
+                Instantiate(splash[0], transform.position, Quaternion.identity);
+            }
+            else if ((collision.contacts[0].normal.x == -1))
+            {
+                Instantiate(splash[1], transform.position, Quaternion.identity);
+            }
+            else if (collision.contacts[0].normal.y == -1)
+            {
+                Instantiate(splash[2], transform.position, Quaternion.identity);
+            }
+            else if (collision.contacts[0].normal.y == 1)
+            {
+                Instantiate(splash[3], transform.position, Quaternion.identity);
+            }
+            DestroyBullet();
+        }
+
+        /*private void OnTriggerEnter2D(Collider2D collision)
+        {
+            if (collision.CompareTag("Wall"))
+            {
+                wall = collision.gameObject;
+                if (wall != null)
+                {
+
+                    if (Mathf.Abs(Rb.velocity.x) > Mathf.Abs(Rb.velocity.y))
+                    {
+                        if (Rb.velocity.x > 0)
+                        {
+                            Debug.Log("right");
+                        }
+                        else if (Rb.velocity.x < 0)
+                        {
+                            Debug.Log("left");
+                        }
+                    }
+                    else if (Mathf.Abs(Rb.velocity.x) < Mathf.Abs(Rb.velocity.y))
+                    {
+                        if (Rb.velocity.y > 0)
+                        {
+                            Debug.Log("up");
+                        }
+                        else if (Rb.velocity.y < 0)
+                        {
+                            Debug.Log("down");
+                        }
+                    }
+
+
+                    difference = wall.transform.position - gameObject.transform.position;
+
+                    Debug.Log(difference);
+                    if (.5f < Mathf.Abs(difference.x) && Mathf.Abs(difference.x) < .6f)
+                    {
+                        if (Mathf.Abs(difference.x) - Mathf.Abs(difference.y) > 0)
+                        {
+
+                        }
+                    }
+                    //Instantiate(splash[0], transform.position, Quaternion.identity);
+                }
+                DestroyBullet();
+            }
+        }*/
     }
 }
