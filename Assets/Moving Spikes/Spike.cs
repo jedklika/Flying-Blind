@@ -76,6 +76,11 @@ public class Spike : MonoBehaviour
             Destroy(collision.gameObject);
         }
 
+        if (collision.gameObject.CompareTag("Green") || collision.gameObject.CompareTag("Blue") || collision.gameObject.CompareTag("Red"))
+        {
+            Destroy(collision.gameObject);
+        }
+
 
     }
 

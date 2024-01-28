@@ -67,7 +67,7 @@ public class bullet : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Wall"))
         {
-            Debug.Log("Normal of the first point: " + collision.contacts[0].normal);
+            //Debug.Log("Normal of the first point: " + collision.contacts[0].normal);
             if (collision.contacts[0].normal.x == 1) //left
             {
                 paint = Instantiate(splash[0], transform.position, Quaternion.identity);
