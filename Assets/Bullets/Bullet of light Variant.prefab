@@ -101,6 +101,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7497167950513011783, guid: 2d62af29d6d6f3845aa155755d68ecc0, type: 3}
+      propertyPath: force
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7497167950513011783, guid: 2d62af29d6d6f3845aa155755d68ecc0, type: 3}
+      propertyPath: lifeTime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7497167950513011783, guid: 2d62af29d6d6f3845aa155755d68ecc0, type: 3}
+      propertyPath: checkInterval
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7497167950513011783, guid: 2d62af29d6d6f3845aa155755d68ecc0, type: 3}
+      propertyPath: sightDistance
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7497167950513011783, guid: 2d62af29d6d6f3845aa155755d68ecc0, type: 3}
       propertyPath: splash.Array.size
       value: 4
       objectReference: {fileID: 0}
