@@ -19,6 +19,7 @@ public class Playermove : MonoBehaviour
     public Vector2 playerPos;
     public GameObject player;
     public bool alive = true;
+    public float angleBetween;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,7 +41,7 @@ public class Playermove : MonoBehaviour
         Vector2 direction = new(speedX, speedY);
         Rb.velocity = direction;
 
-        float ang = AngleBetweenVector2(mousePos, transform.position);
+        //float ang = AngleBetweenVector2(mousePos, transform.position);
 
 
         if (direction != Vector2.zero)
@@ -51,8 +52,8 @@ public class Playermove : MonoBehaviour
             //Quaternion newRot = Quaternion.Euler(0, 0, angle);
             //transform.rotation = newRot;
 
-            Quaternion newRot = Quaternion.Euler(0, 0, ang);
-            transform.rotation = newRot;
+            //Quaternion newRot = Quaternion.Euler(0, 0, ang);
+            //transform.rotation = newRot;
         }
         else
         {
@@ -70,7 +71,8 @@ public class Playermove : MonoBehaviour
     }
     private void CalculateAngleForAnim(Vector2 me, Vector2 target)
     {
-        float angleBetween = AngleBetweenVector2(me, target);
+        angleBetween = AngleBetweenVector2(me, target);
+
 
         player.transform.rotation = Quaternion.Euler(0, 0, angleBetween);
 
