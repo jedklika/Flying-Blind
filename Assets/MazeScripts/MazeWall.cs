@@ -23,6 +23,8 @@ public class MazeWall : MonoBehaviour
                 "Green" => Color.green,
                 _ => Color.white
             };
+
+            Destroy(collision.gameObject);
         }
     }
 }

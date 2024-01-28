@@ -39,6 +39,8 @@ public class MazeDoor : MonoBehaviour
                     if (doorColor == GameColor.Green) Destroy(this.gameObject);
                     break;
             }
+
+            Destroy(collision.gameObject);
         }
     }
 }
