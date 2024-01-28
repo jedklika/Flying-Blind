@@ -51,6 +51,8 @@ MonoBehaviour:
   bulletTransform: {fileID: 8808073142835991845}
   canFire: 1
   fireRate: 0
+  hasGreen: 0
+  hasBlue: 0
   Fog: {fileID: 0}
   secondaryFog: {fileID: 0}
   sightDistance: 0
@@ -236,6 +238,7 @@ GameObject:
   - component: {fileID: 9165209289159044382}
   - component: {fileID: 7053337301336710907}
   - component: {fileID: 3603179152611052698}
+  - component: {fileID: 880294433396939688}
   - component: {fileID: 2655881583675149410}
   m_Layer: 6
   m_Name: Player
@@ -333,8 +336,9 @@ MonoBehaviour:
   checkInterval: 0.25
   mousePos: {x: 0, y: 0}
   playerPos: {x: 0, y: 0}
-  player: {fileID: 0}
+  player: {fileID: 7704301829099431452}
   alive: 1
+  angleBetween: 0
 --- !u!50 &9165209289159044382
 Rigidbody2D:
   serializedVersion: 4
@@ -448,6 +452,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &880294433396939688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7704301829099431452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baf90b4eecb2c824f91ff0c6af77eced, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Shot: {fileID: 0}
 --- !u!95 &2655881583675149410
 Animator:
   serializedVersion: 5

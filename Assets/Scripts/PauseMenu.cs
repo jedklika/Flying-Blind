@@ -38,7 +38,7 @@ public class PauseMenu : MonoBehaviour
 
         if (!player.alive)
         {
-            Death();
+            Invoke("Death", 2);
         }
 
     }
