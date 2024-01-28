@@ -420,7 +420,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detecter1: {fileID: 70025679390817310}
   detecter2: {fileID: 3590072715870035842}
-  player: {fileID: 0}
+  player: {fileID: 7704301829099431452, guid: de3145dc8b327ce45991c3534de33700, type: 3}
   playerPos: {x: 0, y: 0}
   circleCollider: {fileID: 0}
   moveSpeed: 2
