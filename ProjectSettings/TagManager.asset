@@ -9,6 +9,9 @@ TagManager:
   - Green
   - DialogueBox
   - Wall
+  - Trap
+  - GreenPaint
+  - BluePaint
   layers:
   - Default
   - TransparentFX
