@@ -8,7 +8,6 @@ using UnityEngine.Playables;
 public class DialogueTrigger : MonoBehaviour
 {
     private BoxCollider2D _boxCollid;
-    [TextArea(3, 5)]
     [SerializeField] private string textToPlay;
     private DialogueBox _dialogueBox;
 
