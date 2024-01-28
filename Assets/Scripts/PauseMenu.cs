@@ -12,6 +12,7 @@ public class PauseMenu : MonoBehaviour
 
     public bool GameIsPaused = false;
 
+    public bool mainMenu = false;
 
     private void Awake()
     {
@@ -36,9 +37,12 @@ public class PauseMenu : MonoBehaviour
             }
         }
 
-        if (!player.alive)
+        if (!mainMenu)
         {
-            Invoke("Death", 2);
+            if (!player.alive)
+            {
+                Invoke("Death", 2);
+            }
         }
 
     }

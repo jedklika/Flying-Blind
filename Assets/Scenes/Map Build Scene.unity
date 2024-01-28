@@ -10361,7 +10361,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1297762573
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
@@ -12177,6 +12177,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 1676839193082804644, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193082804644, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193082804644, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1676839193082804645, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -12208,6 +12220,30 @@ PrefabInstance:
     - target: {fileID: 1676839193327559717, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -111
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193327559719, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193327559719, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193327559719, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193531751208, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193531751208, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193531751208, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1676839193531751209, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -12316,6 +12352,18 @@ PrefabInstance:
     - target: {fileID: 1676839194153318121, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3597316002185104994, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_Color.b
+      value: 0.8246734
+      objectReference: {fileID: 0}
+    - target: {fileID: 3597316002185104994, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.8246734
+      objectReference: {fileID: 0}
+    - target: {fileID: 3597316002185104994, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8246734
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

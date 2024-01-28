@@ -647,6 +647,7 @@ MonoBehaviour:
   settingsMenu: {fileID: 940730869}
   player: {fileID: 0}
   GameIsPaused: 0
+  mainMenu: 1
 --- !u!114 &785742190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1279,7 +1280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1676839193082804645, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1676839193082804645, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1287,7 +1288,11 @@ PrefabInstance:
       objectReference: {fileID: 785742189}
     - target: {fileID: 1676839193082804645, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Quit
+      value: Home
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193082804645, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1676839193105476044, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
       propertyPath: m_Text
@@ -1301,7 +1306,7 @@ PrefabInstance:
       objectReference: {fileID: 12800000, guid: 997a43b767814dd0a7642ec9b78cba41, type: 3}
     - target: {fileID: 1676839193327559716, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1676839193327559716, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1309,7 +1314,7 @@ PrefabInstance:
       objectReference: {fileID: 785742189}
     - target: {fileID: 1676839193327559716, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Home
+      value: Quit
       objectReference: {fileID: 0}
     - target: {fileID: 1676839193327559716, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
@@ -1485,10 +1490,10 @@ PrefabInstance:
       insertIndex: 3
       addedObject: {fileID: 963575363}
     - targetCorrespondingSourceObject: {fileID: 1676839194153318121, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
-      insertIndex: -1
+      insertIndex: 4
       addedObject: {fileID: 1036650932}
     - targetCorrespondingSourceObject: {fileID: 1676839194153318121, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
-      insertIndex: -1
+      insertIndex: 5
       addedObject: {fileID: 1583918485}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
