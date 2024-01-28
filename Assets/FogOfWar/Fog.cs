@@ -9,6 +9,7 @@ public class Fog : MonoBehaviour
 
     private Vector2 worldScale;
     private Vector2Int textureScale;
+    public Shooter ColorChange;
     // Start is called before the first frame update
     public void Awake()
     {
