@@ -1194,6 +1194,53 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 785742193}
     m_Modifications:
+    - target: {fileID: 338962838246299581, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_Text
+      value: Ok
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129921998850295528, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_text
+      value: 'Instructions
+
+
+        Navigate through the maze and its Fog of War.
+
+        Use
+        the arrow keys or WASD to move.
+
+        Aim with your cursor and fire different
+
+        colors
+        of paint with keys 1,2,3.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129921998850295528, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_fontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129921998850295528, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314132280322337153, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.275
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314132280322337153, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314132280322337153, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314132280322337153, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315249921627313126, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1676839193082804642, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.3765185
@@ -1410,6 +1457,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -9
       objectReference: {fileID: 0}
+    - target: {fileID: 4938170810017529593, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.825
+      objectReference: {fileID: 0}
     - target: {fileID: 5816455993241637070, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1422,6 +1473,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 1bf65c11eae8f9e448b1b1c7ba2962f4, type: 3}
+    - target: {fileID: 9195181933968967501, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_Name
+      value: Ignore
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1676839193531751255, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
