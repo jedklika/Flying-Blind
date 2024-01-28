@@ -16,11 +16,15 @@ public class bullet : MonoBehaviour
     public float lifeTime;
     public GameObject[] splash;
     public Vector2 difference;
+    public SpriteRenderer sRender;
+    public SpriteRenderer thisRend;
+    public GameObject paint;
     // Start is called before the first frame update
     void Start()
     {
         mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
         Rb = GetComponent<Rigidbody2D>();
+        thisRend = GetComponent<SpriteRenderer>();
         mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
         Vector3 direction = mousePos - transform.position;
         Vector3 rotation = transform.position - mousePos;
@@ -62,19 +66,23 @@ public class bullet : MonoBehaviour
             Debug.Log("Normal of the first point: " + collision.contacts[0].normal);
             if (collision.contacts[0].normal.x == 1)
             {
-                Instantiate(splash[0], transform.position, Quaternion.identity);
+                paint = Instantiate(splash[0], transform.position, Quaternion.identity);
+                paint.GetComponent<SpriteRenderer>().color = thisRend.color;
             }
             else if ((collision.contacts[0].normal.x == -1))
             {
-                Instantiate(splash[1], transform.position, Quaternion.identity);
+                paint = Instantiate(splash[1], transform.position, Quaternion.identity);
+                paint.GetComponent<SpriteRenderer>().color = thisRend.color;
             }
             else if (collision.contacts[0].normal.y == -1)
             {
-                Instantiate(splash[2], transform.position, Quaternion.identity);
+                paint = Instantiate(splash[2], transform.position, Quaternion.identity);
+                paint.GetComponent<SpriteRenderer>().color = thisRend.color;
             }
             else if (collision.contacts[0].normal.y == 1)
             {
-                Instantiate(splash[3], transform.position, Quaternion.identity);
+                paint = Instantiate(splash[3], transform.position, Quaternion.identity);
+                paint.GetComponent<SpriteRenderer>().color = thisRend.color;
             }
             DestroyBullet();
         }
