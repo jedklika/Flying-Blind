@@ -3,14 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-
-  - Red
-  - Blue
-  - Green
-  - Trap
-  - Wall
-
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -47,7 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Fog
-    uniqueID: 1297762573
     locked: 0

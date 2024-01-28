@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 4008074392253377105}
   - component: {fileID: 7497167950513011783}
   - component: {fileID: -3952135105935154407}
+  - component: {fileID: 1157002069592258982}
   m_Layer: 0
   m_Name: Bullet of light
   m_TagString: Untagged
@@ -160,7 +161,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 1
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.078431375, g: 0.47058824, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -182,12 +183,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f1e967965bc9064fa9ad2db5b408a40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 5
+  force: 20
+  wall: {fileID: 0}
   FogRef: {fileID: 0}
   secondaryFog: {fileID: 6393169651941667321}
   sightDistance: 2
   checkInterval: 0.25
-  lifeTime: 5
+  lifeTime: 0.5
+  splash: []
+  difference: {x: 0, y: 0}
+  sRender: {fileID: 0}
+  thisRend: {fileID: 0}
+  paint: {fileID: 0}
 --- !u!50 &-3952135105935154407
 Rigidbody2D:
   serializedVersion: 4
@@ -215,3 +222,38 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!58 &1157002069592258982
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8512412717316285253}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
