@@ -7,6 +7,6 @@ public class WinScreen : MonoBehaviour
 {
     private void OnEnable()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("MainMenu2");
     }
 }

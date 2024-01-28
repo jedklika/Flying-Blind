@@ -21,6 +21,9 @@ public class Playermove : MonoBehaviour
     public GameObject player;
     public bool alive = true;
     public float angleBetween;
+
+    [HideInInspector] public bool gameWon = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +40,11 @@ public class Playermove : MonoBehaviour
     void Update()
     {
         if (!alive) return;
+        if (gameWon)
+        {
+            Rb.velocity = Vector2.zero;
+            return;
+        }
 
         playerPos = transform.position;
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition); ;
