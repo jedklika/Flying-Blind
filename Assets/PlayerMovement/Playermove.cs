@@ -9,6 +9,7 @@ public class Playermove : MonoBehaviour
     float speedX, speedY;
     Rigidbody2D Rb;
     private Animator anim;
+    private CircleCollider2D cirColld;
 
     public Fog Fog;
     public Transform secondaryFog;
@@ -26,6 +27,8 @@ public class Playermove : MonoBehaviour
         cam = Camera.main;
         Rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        cirColld = GetComponent<CircleCollider2D>();
+
         secondaryFog.localScale = new Vector2(sightDistance, sightDistance) * 10f;
         StartCoroutine(CheckFogOfWar(checkInterval));
     }
@@ -33,6 +36,8 @@ public class Playermove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!alive) return;
+
         playerPos = transform.position;
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition); ;
         CalculateAngleForAnim(playerPos, mousePos);
@@ -89,6 +94,8 @@ public class Playermove : MonoBehaviour
         if (collision.gameObject.CompareTag("Trap"))
         {
             alive = false;
+            cirColld.enabled = false;
+            anim.SetTrigger("Death");
         }
     }
 }
