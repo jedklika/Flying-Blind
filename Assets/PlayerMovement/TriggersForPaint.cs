@@ -8,7 +8,7 @@ public class TriggersForPaint : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Shot = GameObject.Find("RotatePoint").GetComponent<Shooter>();
+        Shot = GetComponent<Shooter>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)

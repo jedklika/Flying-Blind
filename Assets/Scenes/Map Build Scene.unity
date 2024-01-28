@@ -9761,6 +9761,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1451673737}
     m_Modifications:
+    - target: {fileID: 1615245447079742817, guid: 3092f67e611acd64f9f0c7dbc57cbe08, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1615245447079742817, guid: 3092f67e611acd64f9f0c7dbc57cbe08, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1615245447079742817, guid: 3092f67e611acd64f9f0c7dbc57cbe08, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7180303298385244450, guid: 3092f67e611acd64f9f0c7dbc57cbe08, type: 3}
       propertyPath: m_LocalPosition.x
       value: -76.7683
@@ -15296,11 +15308,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 630272068088845263, guid: e99ae43fb603d3344b4344a233e2f924, type: 3}
       propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 630272068088845263, guid: e99ae43fb603d3344b4344a233e2f924, type: 3}
+      propertyPath: m_SortingLayerID
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 630272068088845263, guid: e99ae43fb603d3344b4344a233e2f924, type: 3}
       propertyPath: m_MaskInteraction
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3098913740790639641, guid: e99ae43fb603d3344b4344a233e2f924, type: 3}
       propertyPath: m_LocalPosition.x
