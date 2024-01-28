@@ -139,6 +139,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueTrigger (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5486523059343677420, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+      propertyPath: textToPlay
+      value: Truly flying blind here huh
+      objectReference: {fileID: 0}
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.9444221
@@ -192,11 +196,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &26463503 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 26463502}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &35861952
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -297,32 +296,32 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1517598545}
-  - {fileID: 1617684059}
-  - {fileID: 444554638}
-  - {fileID: 1737971556}
-  - {fileID: 595164763}
-  - {fileID: 541631169}
-  - {fileID: 2116120785}
-  - {fileID: 1616158658}
-  - {fileID: 245477994}
-  - {fileID: 1785104943}
-  - {fileID: 1651474564}
-  - {fileID: 1700884300}
-  - {fileID: 1599569566}
-  - {fileID: 2046705640}
-  - {fileID: 1272547871}
-  - {fileID: 1421727291}
-  - {fileID: 1023635861}
-  - {fileID: 1897427372}
-  - {fileID: 26463503}
-  - {fileID: 682115066}
-  - {fileID: 668823878}
-  - {fileID: 1590020049}
-  - {fileID: 1610534296}
-  - {fileID: 1203312744}
-  - {fileID: 2000802834}
-  - {fileID: 807805828}
+  - {fileID: 9170554428716263905}
+  - {fileID: 9170554429570506890}
+  - {fileID: 9170554428807854481}
+  - {fileID: 9170554429149314542}
+  - {fileID: 9170554427998360791}
+  - {fileID: 9170554427978516557}
+  - {fileID: 9170554429561264733}
+  - {fileID: 9170554429053056332}
+  - {fileID: 9170554427690621156}
+  - {fileID: 9170554429221740707}
+  - {fileID: 9170554429087984142}
+  - {fileID: 9170554429104080326}
+  - {fileID: 9170554429002503184}
+  - {fileID: 9170554429449770346}
+  - {fileID: 9170554428675760275}
+  - {fileID: 9170554428866886839}
+  - {fileID: 9170554428434963225}
+  - {fileID: 9170554429309147942}
+  - {fileID: 9170554427437803395}
+  - {fileID: 9170554428127384948}
+  - {fileID: 9170554428072025032}
+  - {fileID: 9170554429026790749}
+  - {fileID: 9170554429013616410}
+  - {fileID: 9170554428614914794}
+  - {fileID: 9170554429404020380}
+  - {fileID: 9170554428252817678}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &245477993
@@ -394,11 +393,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &245477994 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 245477993}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &253797728
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1368,11 +1362,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af8e21f96ae6fd640a9a1b95f6840a90, type: 3}
---- !u!4 &444554638 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 1396249372}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &520721226
 GameObject:
   m_ObjectHideFlags: 0
@@ -1471,6 +1460,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueTrigger (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5486523059343677420, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+      propertyPath: textToPlay
+      value: And then our player willingly walked into a pit
+      objectReference: {fileID: 0}
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.9444221
@@ -1524,11 +1517,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &541631169 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 541631168}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &545014817
 GameObject:
   m_ObjectHideFlags: 0
@@ -1629,6 +1617,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueTrigger (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5486523059343677420, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+      propertyPath: textToPlay
+      value: What were you thinking? Oh wait, you weren't
+      objectReference: {fileID: 0}
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.9444221
@@ -1682,11 +1674,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &595164763 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 595164762}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &610476397 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5623378294855717904, guid: de3145dc8b327ce45991c3534de33700, type: 3}
@@ -1761,11 +1748,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &668823878 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 668823877}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &682115065
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1781,6 +1763,10 @@ PrefabInstance:
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486523059343677420, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+      propertyPath: textToPlay
+      value: Honestly an L
       objectReference: {fileID: 0}
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalScale.x
@@ -1835,11 +1821,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &682115066 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 682115065}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &807805827
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1909,11 +1890,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &807805828 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 807805827}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &880189532
 GameObject:
   m_ObjectHideFlags: 0
@@ -2121,6 +2097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueTrigger (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5486523059343677420, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+      propertyPath: textToPlay
+      value: Any day now
+      objectReference: {fileID: 0}
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.9444221
@@ -2174,11 +2154,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &1023635861 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 1023635860}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1072892672
 GameObject:
   m_ObjectHideFlags: 0
@@ -2523,11 +2498,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &1203312744 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 1203312743}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1272547870
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2543,6 +2513,10 @@ PrefabInstance:
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486523059343677420, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+      propertyPath: textToPlay
+      value: Yeah no just keep walking into that trap yeah
       objectReference: {fileID: 0}
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalScale.x
@@ -2597,11 +2571,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &1272547871 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 1272547870}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1279755116
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2617,6 +2586,10 @@ PrefabInstance:
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486523059343677420, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+      propertyPath: textToPlay
+      value: Trap to your left btw
       objectReference: {fileID: 0}
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalScale.x
@@ -2688,6 +2661,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueTrigger (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 5486523059343677420, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+      propertyPath: textToPlay
+      value: How'd you even get here, this is the opposite side of the maze as the
+        exit.
+      objectReference: {fileID: 0}
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.9444221
@@ -2757,6 +2735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueTrigger (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 5486523059343677420, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+      propertyPath: textToPlay
+      value: You're going places. The wrong places, but its the thought that counts
+      objectReference: {fileID: 0}
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.9444221
@@ -2810,11 +2792,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &1421727291 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 1421727290}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1515793517
 GameObject:
   m_ObjectHideFlags: 0
@@ -2899,11 +2876,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1517598545 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 1279755116}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1530299731
 GameObject:
   m_ObjectHideFlags: 0
@@ -3164,6 +3136,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueTrigger (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5486523059343677420, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+      propertyPath: textToPlay
+      value: Mmmm, could be better
+      objectReference: {fileID: 0}
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.9444221
@@ -3217,11 +3193,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &1590020049 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 1590020048}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1595867603
 GameObject:
   m_ObjectHideFlags: 0
@@ -3369,6 +3340,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueTrigger (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5486523059343677420, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+      propertyPath: textToPlay
+      value: Think you'll beat this some time today?
+      objectReference: {fileID: 0}
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.9444221
@@ -3422,11 +3397,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &1599569566 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 1599569565}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1607857858 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7704301829099431452, guid: de3145dc8b327ce45991c3534de33700, type: 3}
@@ -3483,6 +3453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueTrigger (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5486523059343677420, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+      propertyPath: textToPlay
+      value: Behind you! Watch out!
+      objectReference: {fileID: 0}
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.9444221
@@ -3536,11 +3510,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &1610534296 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 1610534295}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1616158657
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3556,6 +3525,10 @@ PrefabInstance:
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486523059343677420, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+      propertyPath: textToPlay
+      value: Ooooooh....yikes
       objectReference: {fileID: 0}
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalScale.x
@@ -3610,16 +3583,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &1616158658 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 1616158657}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1617684059 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 2125220359}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1651474563
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3635,6 +3598,10 @@ PrefabInstance:
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486523059343677420, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+      propertyPath: textToPlay
+      value: Oh sorry, do that again i was on my phone
       objectReference: {fileID: 0}
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalScale.x
@@ -3689,11 +3656,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &1651474564 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 1651474563}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1700884299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3709,6 +3671,10 @@ PrefabInstance:
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486523059343677420, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+      propertyPath: textToPlay
+      value: If I lower my standards a bit, you're doing alright.
       objectReference: {fileID: 0}
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalScale.x
@@ -3763,11 +3729,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &1700884300 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 1700884299}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1717306220
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3963,6 +3924,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueTrigger (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5486523059343677420, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+      propertyPath: textToPlay
+      value: 'Skill Issue
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.9444221
@@ -4016,11 +3983,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &1737971556 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 1737971555}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1785104942
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4090,11 +4052,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &1785104943 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 1785104942}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1815646623
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4326,6 +4283,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueTrigger (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5486523059343677420, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+      propertyPath: textToPlay
+      value: Friendly reminder to actually beat the game
+      objectReference: {fileID: 0}
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.9444221
@@ -4379,11 +4340,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &1897427372 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 1897427371}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2000802833
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4453,11 +4409,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &2000802834 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 2000802833}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2037149057 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 304572320462737572, guid: de3145dc8b327ce45991c3534de33700, type: 3}
@@ -4499,6 +4450,10 @@ PrefabInstance:
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486523059343677420, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+      propertyPath: textToPlay
+      value: Huh? Why would you...nevermind, just keep going
       objectReference: {fileID: 0}
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalScale.x
@@ -4553,11 +4508,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &2046705640 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 2046705639}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2048539263
 GameObject:
   m_ObjectHideFlags: 0
@@ -4673,6 +4623,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueTrigger (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 5486523059343677420, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+      propertyPath: textToPlay
+      value: And so the player went the wrong direction. Again.
+      objectReference: {fileID: 0}
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.9444221
@@ -4726,11 +4680,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
---- !u!4 &2116120785 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
-  m_PrefabInstance: {fileID: 2116120784}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2125220359
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4746,6 +4695,10 @@ PrefabInstance:
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486523059343677420, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+      propertyPath: textToPlay
+      value: Yawn
       objectReference: {fileID: 0}
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalScale.x
@@ -4800,6 +4753,136 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+--- !u!4 &9170554427437803395 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 26463502}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554427690621156 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 245477993}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554427978516557 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 541631168}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554427998360791 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 595164762}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554428072025032 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 668823877}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554428127384948 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 682115065}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554428252817678 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 807805827}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554428434963225 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 1023635860}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554428614914794 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 1203312743}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554428675760275 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 1272547870}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554428716263905 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 1279755116}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554428807854481 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 1396249372}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554428866886839 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 1421727290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554429002503184 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 1599569565}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554429013616410 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 1610534295}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554429026790749 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 1590020048}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554429053056332 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 1616158657}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554429087984142 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 1651474563}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554429104080326 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 1700884299}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554429149314542 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 1737971555}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554429221740707 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 1785104942}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554429309147942 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 1897427371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554429404020380 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 2000802833}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554429449770346 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 2046705639}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554429561264733 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 2116120784}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9170554429570506890 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+  m_PrefabInstance: {fileID: 2125220359}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
