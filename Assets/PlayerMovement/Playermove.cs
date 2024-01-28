@@ -18,6 +18,7 @@ public class Playermove : MonoBehaviour
     public Vector2 mousePos;
     public Vector2 playerPos;
     public GameObject player;
+    public bool alive = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -70,7 +71,7 @@ public class Playermove : MonoBehaviour
     private void CalculateAngleForAnim(Vector2 me, Vector2 target)
     {
         float angleBetween = AngleBetweenVector2(me, target);
-        Debug.Log(angleBetween);
+
         player.transform.rotation = Quaternion.Euler(0, 0, angleBetween);
 
     }
@@ -79,5 +80,13 @@ public class Playermove : MonoBehaviour
         Vector2 diference = vec2 - vec1;
         float sign = (vec2.y < vec1.y) ? -1.0f : 1.0f;
         return Vector2.Angle(Vector2.right, diference) * sign;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Trap"))
+        {
+            alive = false;
+        }
     }
 }

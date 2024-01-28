@@ -19,10 +19,14 @@ public class bullet : MonoBehaviour
     public SpriteRenderer sRender;
     public SpriteRenderer thisRend;
     public GameObject paint;
+    public CircleCollider2D circleCollider;
+    public Vector2 size;
     // Start is called before the first frame update
     void Start()
     {
         mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
+        circleCollider = GetComponent<CircleCollider2D>();
+        size = circleCollider.bounds.size;
         Rb = GetComponent<Rigidbody2D>();
         thisRend = GetComponent<SpriteRenderer>();
         mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
@@ -64,24 +68,28 @@ public class bullet : MonoBehaviour
         if (collision.gameObject.CompareTag("Wall"))
         {
             Debug.Log("Normal of the first point: " + collision.contacts[0].normal);
-            if (collision.contacts[0].normal.x == 1)
+            if (collision.contacts[0].normal.x == 1) //left
             {
                 paint = Instantiate(splash[0], transform.position, Quaternion.identity);
+                paint.transform.position = new Vector3(paint.transform.position.x - (size.x * 2), paint.transform.position.y, paint.transform.position.z);
                 paint.GetComponent<SpriteRenderer>().color = thisRend.color;
             }
-            else if ((collision.contacts[0].normal.x == -1))
+            else if ((collision.contacts[0].normal.x == -1))  //right
             {
                 paint = Instantiate(splash[1], transform.position, Quaternion.identity);
+                paint.transform.position = new Vector3(paint.transform.position.x + (size.x * 2), paint.transform.position.y, paint.transform.position.z);
                 paint.GetComponent<SpriteRenderer>().color = thisRend.color;
             }
-            else if (collision.contacts[0].normal.y == -1)
+            else if (collision.contacts[0].normal.y == -1)  //up
             {
                 paint = Instantiate(splash[2], transform.position, Quaternion.identity);
+                paint.transform.position = new Vector3(paint.transform.position.x, paint.transform.position.y + (size.y * 2), paint.transform.position.z);
                 paint.GetComponent<SpriteRenderer>().color = thisRend.color;
             }
-            else if (collision.contacts[0].normal.y == 1)
+            else if (collision.contacts[0].normal.y == 1)  //down
             {
                 paint = Instantiate(splash[3], transform.position, Quaternion.identity);
+                paint.transform.position = new Vector3(paint.transform.position.x, paint.transform.position.y - (size.y * 2), paint.transform.position.z);
                 paint.GetComponent<SpriteRenderer>().color = thisRend.color;
             }
             DestroyBullet();
