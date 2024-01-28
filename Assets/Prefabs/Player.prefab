@@ -325,11 +325,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88df20f57303c6948b6a1e8fb89c4afc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cam: {fileID: 0}
   moveSpeed: 10
   Fog: {fileID: 0}
   secondaryFog: {fileID: 4347757901860442250}
   sightDistance: 1.7
   checkInterval: 0.25
+  mousePos: {x: 0, y: 0}
+  playerPos: {x: 0, y: 0}
+  player: {fileID: 0}
+  alive: 1
 --- !u!50 &9165209289159044382
 Rigidbody2D:
   serializedVersion: 4

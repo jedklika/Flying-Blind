@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Shooter : MonoBehaviour
@@ -12,6 +11,7 @@ public class Shooter : MonoBehaviour
     public Transform bulletTransform;
     public bool canFire = true;
     public float fireRate;
+    public bool hasGreen, hasBlue;
 
 
     public Fog Fog;
@@ -27,6 +27,10 @@ public class Shooter : MonoBehaviour
     {
         mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
         anim = GetComponent<Animator>();
+
+        hasBlue = false;
+        hasGreen = false;
+
     }
 
     // Update is called once per frame
@@ -34,23 +38,24 @@ public class Shooter : MonoBehaviour
     {
         mousePos = mainCam.WorldToScreenPoint(Input.mousePosition);
 
-        Vector3 rotation = mousePos - transform.position;
-        float rotZ = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, rotZ);
+        //Vector3 rotation = mousePos - transform.position;
+        //float rotZ = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
+        //transform.rotation = Quaternion.Euler(0, 0, rotZ);
 
-        if (Input.GetKeyDown(KeyCode.Alpha1)&& canFire)
+        if (Input.GetKeyDown(KeyCode.Alpha1) && canFire)
         {
             RedShot();
+
         }
-        if (Input.GetKeyDown(KeyCode.Alpha2) && canFire)
+        if (Input.GetKeyDown(KeyCode.Alpha2) && canFire && hasGreen)
         {
             GreenShot();
         }
-        if (Input.GetKeyDown(KeyCode.Alpha3) && canFire)
+        if (Input.GetKeyDown(KeyCode.Alpha3) && canFire && hasBlue)
         {
             BlueShot();
         }
-        
+
     }
     void RedShot()
     {
