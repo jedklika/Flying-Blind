@@ -10,7 +10,7 @@ public class Shooter : MonoBehaviour
     public GameObject bullet2;
     public GameObject bullet3;
     public Transform bulletTransform;
-    public bool canFire;
+    public bool canFire = true;
     public float fireRate;
 
 
@@ -51,20 +51,17 @@ public class Shooter : MonoBehaviour
     }
     void RedShot()
     {
-        Instantiate(bullet, bulletTransform.position, Quaternion.identity, transform);
+        Instantiate(bullet, bulletTransform.position, Quaternion.identity);
         StartCoroutine(RateOfFire());
     }
     void GreenShot()
     {
-        if (Time.time > startTimeBtwShot)
-        {
-            Instantiate(bullet2, bulletTransform.position, Quaternion.identity, transform);
-            StartCoroutine(RateOfFire());
-        }
+        Instantiate(bullet2, bulletTransform.position, Quaternion.identity);
+        StartCoroutine(RateOfFire());
     }
     void BlueShot()
     {
-        Instantiate(bullet3, bulletTransform.position, Quaternion.identity, transform);
+        Instantiate(bullet3, bulletTransform.position, Quaternion.identity);
         StartCoroutine(RateOfFire());
     }
     private IEnumerator RateOfFire()
