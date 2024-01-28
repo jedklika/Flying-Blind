@@ -19,11 +19,14 @@ public class Shooter : MonoBehaviour
     [Range(0, 5)]
     public float sightDistance;
     public float checkInterval;
+
+    private Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
         mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
-
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -35,18 +38,18 @@ public class Shooter : MonoBehaviour
         float rotZ = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, rotZ);
 
-            if (Input.GetKeyDown(KeyCode.Alpha1)&& canFire)
-            {
+        if (Input.GetKeyDown(KeyCode.Alpha1)&& canFire)
+        {
             RedShot();
-            }
-            if (Input.GetKeyDown(KeyCode.Alpha2) && canFire)
-            {
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2) && canFire)
+        {
             GreenShot();
-            }
-            if (Input.GetKeyDown(KeyCode.Alpha3) && canFire)
-            {
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3) && canFire)
+        {
             BlueShot();
-            }
+        }
         
     }
     void RedShot()
@@ -67,6 +70,7 @@ public class Shooter : MonoBehaviour
     private IEnumerator RateOfFire()
     {
         canFire = false;
+        anim.SetTrigger("Throw");
         yield return new WaitForSeconds(fireRate);
         canFire = true;
     }
