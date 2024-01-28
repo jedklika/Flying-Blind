@@ -92,8 +92,9 @@ public class bullet : MonoBehaviour
                 paint.transform.position = new Vector3(paint.transform.position.x, paint.transform.position.y - (size.y * 2), paint.transform.position.z);
                 paint.GetComponent<SpriteRenderer>().color = thisRend.color;
             }
-            DestroyBullet();
             AudioManager.Instance.PlaySFX("Hit");
+            DestroyBullet();
+            
         }
 
         /*private void OnTriggerEnter2D(Collider2D collision)
