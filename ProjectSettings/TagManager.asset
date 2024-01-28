@@ -4,8 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Trap
-  - Wall
+  - Red
+  - Blue
+  - Green
+  - DialogueBox
   layers:
   - Default
   - TransparentFX

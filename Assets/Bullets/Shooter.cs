@@ -10,9 +10,9 @@ public class Shooter : MonoBehaviour
     public GameObject bullet2;
     public GameObject bullet3;
     public Transform bulletTransform;
-    public bool canFire;
-    private float timer;
-    public float timeBetweenFiring;
+    public bool canFire = true;
+    public float fireRate;
+
 
     public Fog Fog;
     public Transform secondaryFog;
@@ -35,32 +35,39 @@ public class Shooter : MonoBehaviour
         float rotZ = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, rotZ);
 
-        if (!canFire)
-        {
-            timer += Time.deltaTime;
-            if (timer > timeBetweenFiring)
+            if (Input.GetKeyDown(KeyCode.Alpha1)&& canFire)
             {
-                canFire = true;
-                timer = 0;
+            RedShot();
             }
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha1) && canFire)
-        {
-            canFire = false;
-            Instantiate(bullet, bulletTransform.position, Quaternion.identity, transform);
-
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha2) && canFire)
-        {
-            canFire = false;
-            Instantiate(bullet2, bulletTransform.position, Quaternion.identity, transform);
-
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha3) && canFire)
-        {
-            canFire = false;
-            Instantiate(bullet3, bulletTransform.position, Quaternion.identity, transform);
-        }
+            if (Input.GetKeyDown(KeyCode.Alpha2) && canFire)
+            {
+            GreenShot();
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha3) && canFire)
+            {
+            BlueShot();
+            }
+        
+    }
+    void RedShot()
+    {
+        Instantiate(bullet, bulletTransform.position, Quaternion.identity);
+        StartCoroutine(RateOfFire());
+    }
+    void GreenShot()
+    {
+        Instantiate(bullet2, bulletTransform.position, Quaternion.identity);
+        StartCoroutine(RateOfFire());
+    }
+    void BlueShot()
+    {
+        Instantiate(bullet3, bulletTransform.position, Quaternion.identity);
+        StartCoroutine(RateOfFire());
+    }
+    private IEnumerator RateOfFire()
+    {
+        canFire = false;
+        yield return new WaitForSeconds(fireRate);
+        canFire = true;
     }
 }

@@ -16296,10 +16296,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 6294713942780761435}
     m_Modifications:
     - target: {fileID: 2958038207715118670, guid: 3969babec1c0fee4f8aa24c25d780a99, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 2958038207715118670, guid: 3969babec1c0fee4f8aa24c25d780a99, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5
       objectReference: {fileID: 0}
@@ -16338,34 +16334,6 @@ PrefabInstance:
     - target: {fileID: 2958038207715118670, guid: 3969babec1c0fee4f8aa24c25d780a99, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 4959758215143207725, guid: 3969babec1c0fee4f8aa24c25d780a99, type: 3}
-      propertyPath: m_Color.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4959758215143207725, guid: 3969babec1c0fee4f8aa24c25d780a99, type: 3}
-      propertyPath: m_Color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4959758215143207725, guid: 3969babec1c0fee4f8aa24c25d780a99, type: 3}
-      propertyPath: m_Color.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4959758215143207725, guid: 3969babec1c0fee4f8aa24c25d780a99, type: 3}
-      propertyPath: m_SortingLayer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4959758215143207725, guid: 3969babec1c0fee4f8aa24c25d780a99, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4959758215143207725, guid: 3969babec1c0fee4f8aa24c25d780a99, type: 3}
-      propertyPath: m_SortingLayerID
-      value: 1297762573
-      objectReference: {fileID: 0}
-    - target: {fileID: 4959758215143207725, guid: 3969babec1c0fee4f8aa24c25d780a99, type: 3}
-      propertyPath: m_MaskInteraction
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6303116300541707442, guid: 3969babec1c0fee4f8aa24c25d780a99, type: 3}
       propertyPath: m_Name
