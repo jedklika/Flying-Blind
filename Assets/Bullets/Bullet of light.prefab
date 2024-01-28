@@ -161,7 +161,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 1
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.078431375, g: 0.47058824, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -184,11 +184,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 20
+  wall: {fileID: 0}
   FogRef: {fileID: 0}
   secondaryFog: {fileID: 6393169651941667321}
   sightDistance: 2
   checkInterval: 0.25
   lifeTime: 0.5
+  splash: []
+  difference: {x: 0, y: 0}
+  sRender: {fileID: 0}
+  thisRend: {fileID: 0}
+  paint: {fileID: 0}
 --- !u!50 &-3952135105935154407
 Rigidbody2D:
   serializedVersion: 4
