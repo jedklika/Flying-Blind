@@ -4,9 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
+
   - Red
   - Blue
   - Green
+  - Trap
+  - Wall
+
   layers:
   - Default
   - TransparentFX
