@@ -79,7 +79,7 @@ public class Playermove : MonoBehaviour
         angleBetween = AngleBetweenVector2(me, target);
 
 
-        player.transform.rotation = Quaternion.Euler(0, 0, angleBetween);
+        player.transform.rotation = Quaternion.Euler(0, 0, angleBetween - 90);
 
     }
     private float AngleBetweenVector2(Vector2 vec1, Vector2 vec2)
