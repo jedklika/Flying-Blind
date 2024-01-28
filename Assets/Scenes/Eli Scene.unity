@@ -175,6 +175,10 @@ PrefabInstance:
       propertyPath: Fog
       value: 
       objectReference: {fileID: 2048539264}
+    - target: {fileID: 7340886140699868533, guid: de3145dc8b327ce45991c3534de33700, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1607857858}
     - target: {fileID: 7704301829099431452, guid: de3145dc8b327ce45991c3534de33700, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1727,6 +1731,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1607857858 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7704301829099431452, guid: de3145dc8b327ce45991c3534de33700, type: 3}
+  m_PrefabInstance: {fileID: 35861952}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2048539263
 GameObject:
   m_ObjectHideFlags: 0
