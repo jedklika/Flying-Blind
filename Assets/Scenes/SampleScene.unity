@@ -573,7 +573,8 @@ MonoBehaviour:
   bullet3: {fileID: 6996788513946448911, guid: e673e03ad5173674cba8d13668f2f477, type: 3}
   bulletTransform: {fileID: 1691144252}
   canFire: 1
-  timeBetweenFiring: 0.3
+  startTimeBtwShot: 2
+  fireRate: 0
   Fog: {fileID: 0}
   secondaryFog: {fileID: 0}
   sightDistance: 0
