@@ -92,4 +92,9 @@ public class PauseMenu : MonoBehaviour
         SceneManager.LoadScene(sceneID);
         Time.timeScale = 1f;
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }

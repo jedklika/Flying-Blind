@@ -256,6 +256,10 @@ PrefabInstance:
       propertyPath: Fog
       value: 
       objectReference: {fileID: 2048539264}
+    - target: {fileID: 7340886140699868533, guid: de3145dc8b327ce45991c3534de33700, type: 3}
+      propertyPath: sightDistance
+      value: 1.87
+      objectReference: {fileID: 0}
     - target: {fileID: 7704301829099431452, guid: de3145dc8b327ce45991c3534de33700, type: 3}
       propertyPath: m_Name
       value: Player
