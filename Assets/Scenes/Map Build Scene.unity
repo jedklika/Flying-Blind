@@ -131,10 +131,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: Ooooooh....yikes
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (2)
@@ -190,6 +186,10 @@ PrefabInstance:
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: Ooooooh....yikes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -334,10 +334,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: Any day now
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (11)
@@ -389,6 +385,10 @@ PrefabInstance:
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: Any day now
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1454,10 +1454,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: Yeah no just keep walking into that trap yeah
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (18)
@@ -1513,6 +1509,10 @@ PrefabInstance:
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: Yeah no just keep walking into that trap yeah
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1611,10 +1611,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: Truly flying blind here huh
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (10)
@@ -1671,6 +1667,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: Truly flying blind here huh
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1689,10 +1689,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: Definitely wouldn't have done that
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (20)
@@ -1745,6 +1741,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: Definitely wouldn't have done that
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1758,10 +1758,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: And so the player went the wrong direction. Again.
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger
@@ -1818,6 +1814,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: And so the player went the wrong direction. Again.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1831,10 +1831,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: You thought this game was just gonna end? Nah, you got a while to go.
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (21)
@@ -1886,6 +1882,10 @@ PrefabInstance:
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: You thought this game was just gonna end? Nah, you got a while to go.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2078,6 +2078,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &912441631 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1315249921627313126, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+  m_PrefabInstance: {fileID: 1717306220}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1023635860
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2086,10 +2091,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: Yawn
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (4)
@@ -2145,6 +2146,10 @@ PrefabInstance:
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: Yawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2434,10 +2439,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: Skill Issue
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (6)
@@ -2490,11 +2491,147 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: Skill Issue
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
+--- !u!1 &1269937595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1269937597}
+  - component: {fileID: 1269937596}
+  m_Layer: 5
+  m_Name: UI_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1269937596
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269937595}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 5599ae663d1d5c040924bce74cb89f8d, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.45
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!224 &1269937597
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269937595}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1530299736}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1272547870
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2503,10 +2640,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: Friendly reminder to actually beat the game
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (9)
@@ -2563,6 +2696,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: Friendly reminder to actually beat the game
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2576,10 +2713,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: Going the right way would help
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (5)
@@ -2636,6 +2769,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: Going the right way would help
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2649,11 +2786,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: How'd you even get here, this is the opposite side of the maze as the
-        exit.
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (22)
@@ -2711,6 +2843,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: How'd you even get here, this is the opposite side of the maze as the
+        exit.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2724,10 +2861,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: And then our player willingly walked into a pit
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (17)
@@ -2783,6 +2916,10 @@ PrefabInstance:
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: And then our player willingly walked into a pit
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2845,7 +2982,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1297762573
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 0.7490196}
@@ -2991,6 +3128,7 @@ RectTransform:
   - {fileID: 880189533}
   - {fileID: 1539354561}
   - {fileID: 1595867604}
+  - {fileID: 1269937597}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3125,10 +3263,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: What were you thinking? Oh wait, you weren't
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (7)
@@ -3184,6 +3318,10 @@ PrefabInstance:
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: What were you thinking? Oh wait, you weren't
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3329,10 +3467,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: Mmmm, could be better
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (12)
@@ -3389,6 +3523,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: Mmmm, could be better
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3413,10 +3551,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: Ok just do whatever you want then
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (1)
@@ -3473,6 +3607,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: Ok just do whatever you want then
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3486,10 +3624,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: Honestly an L
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (15)
@@ -3546,6 +3680,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: Honestly an L
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3559,10 +3697,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: Oh sorry, do that again i was on my phone
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (19)
@@ -3619,6 +3753,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: Oh sorry, do that again i was on my phone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3632,10 +3770,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: If I lower my standards a bit, you're doing alright.
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (13)
@@ -3692,6 +3826,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: If I lower my standards a bit, you're doing alright.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3722,20 +3860,96 @@ PrefabInstance:
       value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 1676839193082804645, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193082804645, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193082804645, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193082804645, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1269937596}
+    - target: {fileID: 1676839193082804645, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1530299732}
     - target: {fileID: 1676839193082804645, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193082804645, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193082804645, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: Home
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193082804645, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193082804645, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: PauseMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193082804645, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193082804645, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193327559716, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193327559716, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1676839193327559716, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1269937596}
+    - target: {fileID: 1676839193327559716, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
       objectReference: {fileID: 1530299732}
     - target: {fileID: 1676839193327559716, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193327559716, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193327559716, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: Resume
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193327559716, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193327559716, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: PauseMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193327559716, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193327559716, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1676839193327559717, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
       propertyPath: m_LocalScale.x
@@ -3754,12 +3968,60 @@ PrefabInstance:
       value: -111
       objectReference: {fileID: 0}
     - target: {fileID: 1676839193531751209, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193531751209, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193531751209, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193531751209, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1269937596}
+    - target: {fileID: 1676839193531751209, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1530299732}
     - target: {fileID: 1676839193531751209, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193531751209, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193531751209, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: Restart
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193531751209, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193531751209, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: PauseMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193531751209, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193531751209, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193531751209, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676839193531751209, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1676839193531751254, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
       propertyPath: m_LocalScale.x
@@ -3861,6 +4123,106 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3556812368518307518, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3556812368518307518, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3556812368518307518, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3556812368518307518, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1269937596}
+    - target: {fileID: 3556812368518307518, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 912441631}
+    - target: {fileID: 3556812368518307518, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3556812368518307518, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 3556812368518307518, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 3556812368518307518, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3556812368518307518, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3556812368518307518, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3556812368518307518, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3556812368518307518, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8248867497310745978, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8248867497310745978, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8248867497310745978, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8248867497310745978, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1269937596}
+    - target: {fileID: 8248867497310745978, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 912441631}
+    - target: {fileID: 8248867497310745978, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8248867497310745978, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 8248867497310745978, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 8248867497310745978, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8248867497310745978, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8248867497310745978, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8248867497310745978, guid: d3861f1b4ecac1146bfef22d33bb9dd3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3884,10 +4246,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: You're going places. The wrong places, but its the thought that counts
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (8)
@@ -3946,6 +4304,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: You're going places. The wrong places, but its the thought that counts
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3959,10 +4321,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: Behind you! Watch out!
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (14)
@@ -4015,6 +4373,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: Behind you! Watch out!
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4029,16 +4391,60 @@ PrefabInstance:
     m_TransformParent: {fileID: 1530299736}
     m_Modifications:
     - target: {fileID: 1848074938791699188, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848074938791699188, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848074938791699188, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848074938791699188, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1269937596}
+    - target: {fileID: 1848074938791699188, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1530299732}
     - target: {fileID: 1848074938791699188, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848074938791699188, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848074938791699188, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: Restart
       objectReference: {fileID: 0}
     - target: {fileID: 1848074938791699188, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848074938791699188, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: PauseMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848074938791699188, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848074938791699188, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848074938791699188, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848074938791699188, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2456001115412979349, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
       propertyPath: m_Pivot.x
@@ -4133,16 +4539,56 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4223343793581020580, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223343793581020580, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223343793581020580, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223343793581020580, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1269937596}
+    - target: {fileID: 4223343793581020580, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1530299732}
     - target: {fileID: 4223343793581020580, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223343793581020580, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223343793581020580, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: Home
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223343793581020580, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223343793581020580, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: PauseMenu, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4223343793581020580, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223343793581020580, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223343793581020580, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 9175190014350938343, guid: 4dd691eab2084174aa569f07bf657777, type: 3}
       propertyPath: m_Name
@@ -4243,10 +4689,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: Yawn
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (16)
@@ -4303,6 +4745,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: Yawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4316,10 +4762,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: Just walk a liiitle bit forward
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (3)
@@ -4372,6 +4814,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: Just walk a liiitle bit forward
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4385,10 +4831,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: Huh? Why would you...nevermind, just keep going
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (23)
@@ -4444,6 +4886,10 @@ PrefabInstance:
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: Huh? Why would you...nevermind, just keep going
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4557,10 +5003,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: Trap to your left btw
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (25)
@@ -4617,6 +5059,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: Trap to your left btw
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4630,10 +5076,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 64655965}
     m_Modifications:
-    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
-      propertyPath: textToPlay
-      value: Think you'll beat this some time today?
-      objectReference: {fileID: 0}
     - target: {fileID: 4927704746763335898, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger (24)
@@ -4689,6 +5131,10 @@ PrefabInstance:
     - target: {fileID: 9170554427445291661, guid: b53ead4a6d3b81046b5393a84d558f37, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7011633006720365448, guid: 8446e62e96dc4a945838abc81d21a377, type: 3}
+      propertyPath: textToPlay
+      value: Think you'll beat this some time today?
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
