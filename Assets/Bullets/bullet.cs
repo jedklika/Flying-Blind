@@ -93,6 +93,7 @@ public class bullet : MonoBehaviour
                 paint.GetComponent<SpriteRenderer>().color = thisRend.color;
             }
             DestroyBullet();
+            AudioManager.Instance.PlaySFX("Hit");
         }
 
         /*private void OnTriggerEnter2D(Collider2D collision)

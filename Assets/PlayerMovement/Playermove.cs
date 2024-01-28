@@ -104,6 +104,7 @@ public class Playermove : MonoBehaviour
             alive = false;
             cirColld.enabled = false;
             anim.SetTrigger("Death");
+            AudioManager.Instance.PlaySFX("Death");
         }
     }
 }
