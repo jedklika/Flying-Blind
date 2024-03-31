@@ -8,7 +8,7 @@ public class bullet : MonoBehaviour
     private Rigidbody2D Rb;
     public float force;
     public GameObject wall;
-    public Fog FogRef;
+    //public Fog FogRef;
     public Transform secondaryFog;
     [Range(0, 5)]
     public float sightDistance;
@@ -35,11 +35,11 @@ public class bullet : MonoBehaviour
         Rb.velocity = new Vector2(direction.x, direction.y).normalized * force;
         float rot = Mathf.Atan2(rotation.x, rotation.y) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, rot + 90);
-        FogRef = GameObject.Find("FogOfWar").GetComponent<Fog>();
+        //FogRef = GameObject.Find("FogOfWar").GetComponent<Fog>();
         Invoke("DestroyBullet", lifeTime);
 
-        secondaryFog.localScale = new Vector2(sightDistance, sightDistance) * 10f;
-        StartCoroutine(CheckFogOfWar(checkInterval));
+        //secondaryFog.localScale = new Vector2(sightDistance, sightDistance) * 10f;
+        //StartCoroutine(CheckFogOfWar(checkInterval));
     }
 
     // Update is called once per frame
@@ -53,14 +53,14 @@ public class bullet : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private IEnumerator CheckFogOfWar(float checkInterval)
+    /*private IEnumerator CheckFogOfWar(float checkInterval)
     {
         while (true)
         {
             FogRef.MakeHole(transform.position, sightDistance);
             yield return new WaitForSeconds(checkInterval);
         }
-    }
+    }*/
 
     void OnCollisionEnter2D(Collision2D collision)
     {

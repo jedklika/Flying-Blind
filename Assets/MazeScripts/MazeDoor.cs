@@ -1,16 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 [RequireComponent(typeof(BoxCollider2D), typeof(SpriteRenderer))]
 public class MazeDoor : MonoBehaviour
 {
     private SpriteRenderer _sRend;
+    public Light2D DoorLight;
     [SerializeField] private GameColor doorColor;
+    [SerializeField] private GameColor lightColor;
 
     private void Awake()
     {
         _sRend = GetComponent<SpriteRenderer>();
+
 
         _sRend.color = (doorColor) switch
         {
@@ -19,6 +23,24 @@ public class MazeDoor : MonoBehaviour
             GameColor.Green => Color.green,
             _ => Color.white
         };
+    }
+    public void Update()
+    {
+        switch (doorColor)
+        {
+            case GameColor.Red:
+                DoorLight.color = Color.red;
+                Debug.Log("Red");
+                break;
+                
+            case GameColor.Blue:
+                DoorLight.color = Color.blue; 
+                break;
+                
+            case GameColor.Green:
+                DoorLight.color = Color.green; 
+                break;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -31,13 +31,10 @@ public class Playermove : MonoBehaviour
         Rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         cirColld = GetComponent<CircleCollider2D>();
-
-        secondaryFog.localScale = new Vector2(sightDistance, sightDistance) * 10f;
-        StartCoroutine(CheckFogOfWar(checkInterval));
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (!alive) return;
         if (gameWon)
@@ -74,14 +71,14 @@ public class Playermove : MonoBehaviour
         }
 
     }
-    private IEnumerator CheckFogOfWar(float checkInterval)
+    /*private IEnumerator CheckFogOfWar(float checkInterval)
     {
         while (true)
         {
             Fog.MakeHole(transform.position, sightDistance);
             yield return new WaitForSeconds(checkInterval);
         }
-    }
+   }*/
     private void CalculateAngleForAnim(Vector2 me, Vector2 target)
     {
         angleBetween = AngleBetweenVector2(me, target);
