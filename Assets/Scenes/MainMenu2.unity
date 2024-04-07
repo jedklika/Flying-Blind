@@ -936,7 +936,7 @@ MonoBehaviour:
   settingsMenu: {fileID: 940730869}
   player: {fileID: 0}
   GameIsPaused: 0
-  mainMenu: 0
+  mainMenu: 1
 --- !u!114 &785742190
 MonoBehaviour:
   m_ObjectHideFlags: 0

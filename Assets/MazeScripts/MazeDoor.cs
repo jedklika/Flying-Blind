@@ -30,7 +30,6 @@ public class MazeDoor : MonoBehaviour
         {
             case GameColor.Red:
                 DoorLight.color = Color.red;
-                Debug.Log("Red");
                 break;
                 
             case GameColor.Blue:
