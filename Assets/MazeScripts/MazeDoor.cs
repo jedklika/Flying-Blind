@@ -19,8 +19,8 @@ public class MazeDoor : MonoBehaviour
         _sRend.color = (doorColor) switch
         {
             GameColor.Red => Color.red,
-            GameColor.Blue => Color.blue,
-            GameColor.Green => Color.green,
+            GameColor.Blue => new Color(0.07843138f, 0.4705882f,1,1),
+            GameColor.Green => new Color(0.07734208f, 0.4313726f, 0,1),
             _ => Color.white
         };
     }
@@ -33,11 +33,11 @@ public class MazeDoor : MonoBehaviour
                 break;
                 
             case GameColor.Blue:
-                DoorLight.color = Color.blue; 
+                DoorLight.color = new Color(0.07843138f, 0.4705882f, 1, 1);
                 break;
                 
             case GameColor.Green:
-                DoorLight.color = Color.green; 
+                DoorLight.color = new Color(0.07734208f, 0.4313726f, 0, 1);
                 break;
         }
     }
